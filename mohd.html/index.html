@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title> layout </title>
+
+        <style type="text/css">
+        #logo-div
+        {
+            width:100%;
+            min-height: 50px;
+            background-color:red;
+            padding-left: 2%;
+            line-height: 50px;
+            margin-bottom:10px;
+        }
+        #nav-div
+        {
+            width:100%;
+            min-height:50px;
+            background-color:blue;
+            text-align: center;
+            margin-bottom:10px;
+        }
+        #header-banner-div
+        {
+            width:100%;
+            min-height: 100px;
+            background-color:purple;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+        }
+        #main-div
+        {
+            width:100%;
+            min-heigtht:400px;
+            backgroubnd-color:green;
+            
+        }
+        #sidebar-div
+        {
+            width:45%;
+            min-height: 400px;
+            background-color:red;
+            float: left;
+        }
+        #bodyarea-div
+        {
+            width:45%;
+            min-height:400px;
+            background-color:red;
+            float: right;
+        }
+        #header-div
+        {
+            width:100%;
+            min-height: 50px;
+            background-color:blue;
+            width:100%;
+            height:400px;
+            margin-bottom:10px;
+        }
+        #college-div
+        {
+            width:100%;
+            min-height: 100px;
+            background-color:purple;
+            text-align: center;
+            line-height: 100px;
+            margin-bottom: 10px;
+        }
+        #school-div
+        {
+            width:100%;
+            min-height:50px;
+            background-color:blue;
+            text-align: center;
+            margin-bottom:10px;
+        }
+        #logo-div
+        {
+            width:100%;
+            min-height: 50px;
+            background-color:red;
+            padding-left: 2%;
+            line-height: 50px;
+            margin-bottom:10px;
+        }
+       
+          
+        .clearfix ::after
+        {
+            content: "";
+            display: block;
+            clear: both;
+        }
+        </style>
+
+    </head>
+        <body>
+           
+            <div id="logo-div">
+                logo
+            </div>
+            <div id="nav-div">
+                navigation
+            </div>
+            <div id="header-banner-div">
+                header/banner 
+            </div>
+            <div id="main-div" class="clearfix">
+                <div id="sidebar-div">
+                    side bar
+                </div>
+                <div id="bodyarea-div">
+                    body area
+                </div>
+
+            </div>
+            <div id="header-div">
+                header
+            </div>
+            <div id="college-div">
+                college
+            </div>
+            <div id="school-div">
+                school
+            </div>
+            <div id="logo-div">
+                logo
+            </div>
+           
+        </body>
+        
+</html>

@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/untils.css">
+    <title>online shopping site for mobails</title>
+    <style>
+    @import url("https://fonts.googleapis.com/css2?family=lato:wght@3005display=swap");
+    @import url("https://fonts.googleapis.com/css2?family=ubunt:wght@3005display=swap");
+    *{
+    margin: 0;
+    padding: 0;
+    }
+    footer{
+    height: 12vh;
+    background-color: rgb(255, 0, 89);
+    color: white;
+    font-family: "lato",sans-serif;
+   }
+   header{
+    background: rgb(255, 0, 89);
+    font-family: "lato",sans-serif;
+    height: 58px;
+   }
+   .container{
+    min-height: calc(100vh - 58px - 12vh);
+   }
+   nav{
+    display: flex;
+   }
+   .logo{
+    display: flex;
+    align-items: center;
+   }
+   .logo img{
+    width: 88px;
+    padding: 0 25px;
+
+   }
+   nav ul{
+    height: 60px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   }
+   nav ul li{
+    list-style: none;
+    padding: 0 23px;
+   }
+   nav ul li a{
+    color: white;
+    text-decoration: none;
+   }
+   nav ul li a:hover{
+    color: rgb(22, 90, 236);
+    text-decoration: none;
+    font-style: bold;
+   }
+   .flex-all-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   }
+   .btn{
+    padding: 5px 10px;
+    color: white;
+    background: var(--mzin-bg-color);
+    border: 2px solid white;
+    border-radius: 7px;
+    cursor: pointer;
+   }
+   .search{
+    display: flex;
+    align-items: center;
+   }
+   .search input{
+    width: 493px;
+    height: 27px;
+    border-radius: 5px;
+    margin: 0 56px 0 56px;
+    padding: 0 12px;
+
+   }
+   .search button{
+    font-family: "lato",sans-serif;
+    font-weight: 900;
+   
+   }
+   .slider{
+    width: 80vh;
+    margin: 12px auto;
+    }
+    .cards{
+        display: flex;
+       /* align-items: center;*/
+    }
+    .card{
+        /*background-color: #2874f0;*/
+        max-width: 91vw;
+        margin: auto;
+        font-family: "ubuntu",sans-serif;
+    }  
+    .card-item{
+        display: inline-flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: 0 15px;
+    }
+    .card h2{
+        font-family: "ubuntu",sans-serif;
+    }
+    .my-1{
+        margin: 5px 0;
+    }
+    .my-2{
+        margin: 26px 0;
+    }
+    .text-center{
+        text-align: center;
+    }
+    @media screen and (max-width:1000px){
+        body{
+            background-color: red;
+        }
+        nav{
+            flex-direction: column;
+        }
+        .logo{
+            justify-content: center;
+            margin: 12px 0;
+        }
+        nav ul{
+            justify-content: center;
+        }
+        .search{
+            justify-content: center;
+        }
+    }
+         </style>
+</head>
+<body>
+   <header>
+        <nav>
+            <div class="logo">
+                <img src="logo.jpg" alt="">
+            </div>
+            <ul>
+                <li><a href="home.html">HOME</a></li>
+                <li> <a href="about.html">ABOUT</a></li>
+                <li> <a href="contact.html">CONTACT</a></li>
+            </ul>
+            <div class="search">
+                <input type="text" name="" id="" placeholder="search here">
+                <button class="btn">search</button>
+            </div>
+        </nav>
+   </header>
+    <main>
+        <div class="contaniar">
+        <div class="slider">
+           <img src="https://cdn.pixabay.com/photo/2018/10/08/14/54/bitcoin-3732876_1280.jpg" alt="" width="1000*1000">
+        </div>
+        <h2 class="my-2">join the cricket fun</h2>
+        <div class="carditem">
+       <div class="cards">
+       </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+            </div>
+        <div class="card">
+             <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+            </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+            </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" wi dth="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+                   
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+        <div class="card">
+            <img src="https://media.istockphoto.com/id/497570802/photo/boy-playing-cricket.jpg?s=2048x2048&w=is&k=20&c=HEThG8J3GsAMbOQiPRkuZTbjksi2HthCR2a9cbCjJSE=" alt="" width="200">
+            <div class="lines">
+                <p class="text-center my-1">Cricket Bats</p>
+                <p class="text-center my-1">Min 20% Off</p>
+                <p class="text-center my-1">Grab Now</p>
+                </div>
+            </div>
+        </div>
+    </div> 
+    </main> 
+    <footer class="fles-all-center">
+        <p>COPYRIGHT &COPY; MYCART.COM</p>
+    </footer>
+  
+</body>
+</html>
